@@ -1,0 +1,23 @@
+name: SimplisticSpawn
+main: com.thieding.tyler.SimplisticSpawn
+version: 1.2.1
+
+commands:
+    spawn:
+        description: Teleport the player to spawn
+        usage: /spawn
+        permission: SimplisticSpawn.spawn
+        permission-message: You don't have SimplisticSpawn.spawn
+    bed:
+        description: Teleport the player to their bed
+        usage: /bed
+        permission: SimplisticSpawn.bed
+        permission-message: You don't have SimplisticSpawn.bed
+
+permissions:
+    SimplisticSpawn.spawn:
+        description: Teleport the player to spawn
+        default: true
+    SimplisticSpawn.bed:
+        description: Poof away to your bed
+        default: true
